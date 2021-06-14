@@ -3,7 +3,7 @@ import sys
 from typing import Optional
 from typing import Sequence
 
-from {{cookiecutter.project_slug}} import constants as C
+import {{cookiecutter.project_slug}}.constants as C
 from {{cookiecutter.project_slug}}.commands.hello import hello
 
 
