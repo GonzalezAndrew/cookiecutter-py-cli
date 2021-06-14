@@ -1,0 +1,9 @@
+{
+    "full_name": "Andrew Gonzalez",
+    "email": "andrewgonzo23@gmail.com",
+    "repo_url": "https://github.com/GonzalezAndrew/cookiecutter-cli",
+    "project_name": "Project Name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('-', '_') }}",
+    "project_short_description": "Python cookiecutter project containers everything you need to create a Python Command Line Interface.",
+    "version": "0.0.0"
+}
