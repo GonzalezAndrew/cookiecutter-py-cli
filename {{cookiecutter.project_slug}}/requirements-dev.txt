@@ -1,6 +1,3 @@
 covdefaults
 coverage
-distlib
 pytest
-pytest-env
-re-assert

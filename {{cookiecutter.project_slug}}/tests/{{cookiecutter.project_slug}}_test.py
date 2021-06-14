@@ -1,8 +1,8 @@
-from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+from {{ cookiecutter.project_slug }} import main
 
 def test_main(capsys):
-    {{ cookiecutter.project_slug }}.main(['hello'])
+    main.main(['hello'])
 
     out, err = capsys.readouterr()
-    assert out == 'Hello, World\n'
+    assert out == 'Hello, World!\n'
     assert err == ''
